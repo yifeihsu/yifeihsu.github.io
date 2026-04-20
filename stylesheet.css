@@ -145,10 +145,6 @@ span.highlight {
   color: #555;
 }
 
-.news-column {
-  border-left: 1px solid #e3e8ee;
-}
-
 .news-card {
   margin-top: 12px;
   padding: 16px 18px;
@@ -183,19 +179,6 @@ span.highlight {
 }
 
 @media (max-width: 700px) {
-  .section-grid,
-  .section-grid tbody,
-  .section-grid tr,
-  .section-grid td {
-    display: block;
-    width: 100% !important;
-  }
-
-  .news-column {
-    border-left: 0;
-    border-top: 1px solid #e3e8ee;
-  }
-
   .news-item {
     grid-template-columns: 1fr;
     gap: 4px;
